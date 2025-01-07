@@ -1,18 +1,15 @@
 {
-  "homepage": "https://<your-github-username>.github.io/<repository-name>",
-  "name": "frontend",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "vite-react-app",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://<your-github-username>.github.io/<your-repo-name>",
+
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "react": "^18.3.1",
