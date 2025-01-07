@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-r from-gray-800 via-gray-800 to-gray-900 py-20">
+    <section className="relative bg-gradient-to-r from-blue-800 via-gray-600 to-green-900 py-20">
       <div className="container mx-auto px-6 md:px-12 lg:px-20 flex flex-col-reverse lg:flex-row items-center gap-12 p-20">
         {/* Text Content */}
         <div className="flex-1 text-center lg:text-left">

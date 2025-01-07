@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="relative bg-gradient-to-r from-gray-900 via-black to-gray-900 text-white py-16">
+    <div className="relative bg-gradient-to-r from-gray-900 via-black to-gray-900 text-white py-20 my-auto">
       {/* Glowing Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-pink-500 to-blue-500 opacity-20 blur-3xl -z-10"></div>
 
@@ -18,7 +18,7 @@ const Contact = () => {
             </p>
 
             <form
-              action="https://formsubmit.co/your-email@example.com"
+              action="https://formspree.io/f/movqkpad"
               method="POST"
               className="space-y-6"
             >
@@ -82,10 +82,10 @@ const Contact = () => {
             <div>
               <h2 className="text-2xl font-bold">Contact Details</h2>
               <p className="text-gray-400 mt-2">
-                Email: <a href="mailto:your-email@example.com" className="text-blue-500 hover:underline">your-email@example.com</a>
+                Email: <a href="mailto:your-email@example.com" className="text-blue-500 hover:underline">oscarsanz1717@gmail.com</a>
               </p>
               <p className="text-gray-400">
-                Phone: <a href="tel:+1234567890" className="text-blue-500 hover:underline">+123 456 7890</a>
+                Phone: <a href="tel:+1234567890" className="text-blue-500 hover:underline">+1 (813-532-9032)</a>
               </p>
             </div>
 

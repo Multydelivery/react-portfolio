@@ -15,7 +15,7 @@ const Footer = () => {
         {/* Social Media Links */}
         <div className="flex justify-center space-x-6 mb-8">
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/felipesanz17?igsh=MWNobDBiaWpoOWgxaA%3D%3D&utm_source=qr"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-pink-500 transition transform hover:scale-110"
@@ -24,7 +24,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faInstagram} className="text-3xl" />
           </a>
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/felipe-sanz-b4b5b630b/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-blue-600 transition transform hover:scale-110"
@@ -33,7 +33,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faLinkedin} className="text-3xl" />
           </a>
           <a
-            href="https://www.twitter.com"
+            href="https://x.com/felipeCode24"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-blue-400 transition transform hover:scale-110"
@@ -42,7 +42,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faTwitter} className="text-3xl" />
           </a>
           <a
-            href="https://www.github.com"
+            href="https://github.com/Multydelivery"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-gray-400 transition transform hover:scale-110"
@@ -55,19 +55,11 @@ const Footer = () => {
         {/* Footer Navigation */}
         <ul className="flex justify-center space-x-8 text-sm mb-6">
           <li>
-            <a href="/about" className="hover:text-white transition transform hover:scale-105">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="/contact" className="hover:text-white transition transform hover:scale-105">
-              Contact
-            </a>
-          </li>
-          <li>
-            <a href="/privacy" className="hover:text-white transition transform hover:scale-105">
-              Privacy Policy
-            </a>
+            <p className="hover:text-white transition transform hover:scale-105">
+              youmelostore@gmail.com
+            </p>
+
+
           </li>
         </ul>
 
