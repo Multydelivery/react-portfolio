@@ -1,6 +1,6 @@
 {
-  "name": "vite-react-app",
-  "version": "0.0.1",
+  "name": "react-portfolio",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -8,7 +8,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://<your-github-username>.github.io/<your-repo-name>",
+  "homepage": "https://Multydelivery.github.io/react-portfolio",
+
 
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
