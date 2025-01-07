@@ -12,6 +12,7 @@ const App = () => {
     <div className="w-full">
       <NavBar />
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />

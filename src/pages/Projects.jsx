@@ -4,28 +4,28 @@ const Projects = () => {
   // Array of project details with image paths, GitHub links, live website links, and descriptions
   const projects = [
     {
-      image: '/images/APOD Nasa.png',
+      image: '/react-portfolio/images/APOD Nasa.png',
       title: 'NASA APOD Viewer',
       description: 'An app that fetches and displays NASA’s Astronomy Picture of the Day with details and explanations.',
       github: 'https://github.com/yourusername/nasa-apod',
       website: 'https://nasa-apod-viewer.com',
     },
     {
-      image: '/images/hvacsolutionsscreenshot.png',
+      image: '/react-portfolio/images/hvacsolutionsscreenshot.png',
       title: 'HVAC Solutions',
       description: 'A modern HVAC management platform for technicians and customers to streamline service workflows.',
       github: 'https://github.com/yourusername/hvac-solutions',
       website: 'https://hvac-solutions.com',
     },
     {
-      image: '/images/pixel-plate-screenshot.png',
+      image: '/react-portfolio/images/pixel-plate-screenshot.png',
       title: 'Pixel Plate',
       description: 'A creative platform for pixel art and design enthusiasts to showcase and collaborate on projects.',
       github: 'https://github.com/yourusername/pixel-plate',
       website: 'https://pixel-plate.com',
     },
     {
-      image: '/images/Screenshot 2024-09-17 160152.png',
+      image: '/react-portfolio/images/Screenshot 2024-09-17 160152.png',
       title: 'Next Project',
       description: 'A cutting-edge project leveraging the latest in technology to deliver impactful solutions.',
       github: 'https://github.com/yourusername/next-project',
