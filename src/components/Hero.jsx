@@ -1,5 +1,18 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faHtml5,
+  faCss3Alt,
+  faJs,
+  faReact,
+  faNode,
+  faGithub,
+  faNpm,
+} from '@fortawesome/free-brands-svg-icons';
+import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+
 import { Link } from 'react-router-dom';
+
 
 const Hero = () => {
   return (
@@ -45,15 +58,16 @@ const Hero = () => {
 
           {/* Technology Icons */}
           <div className="mt-6 flex flex-wrap justify-center gap-4">
-            <i className="fab fa-html5 text-orange-500 text-5xl" title="HTML5"></i>
-            <i className="fab fa-css3-alt text-blue-500 text-5xl" title="CSS3"></i>
-            <i className="fab fa-js text-yellow-500 text-5xl" title="JavaScript"></i>
-            <i className="fab fa-react text-cyan-500 text-5xl" title="React"></i>
-            <i className="fab fa-node text-green-500 text-5xl" title="Node.js"></i>
-            <i className="fab fa-github text-gray-400 text-5xl" title="GitHub"></i>
-            <i className="fas fa-database text-indigo-500 text-5xl" title="SQL"></i>
-            <i className="fab fa-npm text-red-500 text-5xl" title="NPM"></i>
+            <FontAwesomeIcon icon={faHtml5} className="text-orange-500 text-5xl" title="HTML5" />
+            <FontAwesomeIcon icon={faCss3Alt} className="text-blue-500 text-5xl" title="CSS3" />
+            <FontAwesomeIcon icon={faJs} className="text-yellow-500 text-5xl" title="JavaScript" />
+            <FontAwesomeIcon icon={faReact} className="text-cyan-500 text-5xl" title="React" />
+            <FontAwesomeIcon icon={faNode} className="text-green-500 text-5xl" title="Node.js" />
+            <FontAwesomeIcon icon={faGithub} className="text-gray-400 text-5xl" title="GitHub" />
+            <FontAwesomeIcon icon={faDatabase} className="text-indigo-500 text-5xl" title="SQL" />
+            <FontAwesomeIcon icon={faNpm} className="text-red-500 text-5xl" title="NPM" />
           </div>
+
         </div>
       </div>
     </section>

@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
@@ -19,7 +21,7 @@ const Footer = () => {
             className="text-gray-300 hover:text-pink-500 transition transform hover:scale-110"
             aria-label="Instagram"
           >
-            <i className="fab fa-instagram text-3xl"></i>
+            <FontAwesomeIcon icon={faInstagram} className="text-3xl" />
           </a>
           <a
             href="https://www.linkedin.com"
@@ -28,7 +30,7 @@ const Footer = () => {
             className="text-gray-300 hover:text-blue-600 transition transform hover:scale-110"
             aria-label="LinkedIn"
           >
-            <i className="fab fa-linkedin text-3xl"></i>
+            <FontAwesomeIcon icon={faLinkedin} className="text-3xl" />
           </a>
           <a
             href="https://www.twitter.com"
@@ -37,7 +39,7 @@ const Footer = () => {
             className="text-gray-300 hover:text-blue-400 transition transform hover:scale-110"
             aria-label="Twitter"
           >
-            <i className="fab fa-twitter text-3xl"></i>
+            <FontAwesomeIcon icon={faTwitter} className="text-3xl" />
           </a>
           <a
             href="https://www.github.com"
@@ -46,7 +48,7 @@ const Footer = () => {
             className="text-gray-300 hover:text-gray-400 transition transform hover:scale-110"
             aria-label="GitHub"
           >
-            <i className="fab fa-github text-3xl"></i>
+            <FontAwesomeIcon icon={faGithub} className="text-3xl" />
           </a>
         </div>
 
@@ -79,5 +81,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 

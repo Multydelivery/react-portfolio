@@ -28,8 +28,8 @@ const Projects = () => {
       image: '/react-portfolio/images/Screenshot 2024-09-17 160152.png',
       title: 'Next Project',
       description: 'A cutting-edge project leveraging the latest in technology to deliver impactful solutions.',
-      github: 'https://github.com/yourusername/next-project',
-      website: 'https://next-project.com',
+      github: 'https://github.com/Multydelivery/gym-workouts',
+      website: 'https://gym-workouts-time.netlify.app/',
     },
   ];
 
